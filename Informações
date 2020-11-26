@@ -1,0 +1,19 @@
+Olá, quero registrar um pouco da abordagem que utilizei para realizar o desafio.
+
+ - Utilizei o Spring Batch para trabalhar com os steps do processo
+ - Criei uma Service para aplicar a logica da aplicação
+ - A aplicação funciona apenas para arquivos .dat
+
+ - o job foi  agendado de 10 em 10 segundos
+ - Todo arquivo não valido será renomeado para "filename.data.error"
+
+ 
+ -- Acredito que poderiamos implementar mais coisas nesse projeto, analisando volume de processamento
+ e etc...
+ --Tambem gostaria de ter implementado mais loggs , mas o tempo para dedicar a esse desafio foi nao foi muito.
+ 
+ 
+ Att
+ Gustavo Espinoza.
+
+
